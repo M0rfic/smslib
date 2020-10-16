@@ -21,7 +21,7 @@
 	<groupId>org.smslib</groupId>
 	<artifactId>smslib-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>dev-SNAPSHOT</version>
+	<version>4.0.0</version>
 	<name>SMSLib</name>
 	<description>A universal API for sms messaging.
 
@@ -76,10 +76,10 @@ Contact: admin@smslib.org</description>
 		<module>smslib</module>
 		<module>smslib-camel</module>
 		<module>smslib-dep</module>
-		<module>smslib-dotnet</module>
+<!--		<module>smslib-dotnet</module>-->
 		<module>smsserver</module>
 		<module>smsserver-dep</module>
-		<module>smsserver-dotnet</module>
+<!--		<module>smsserver-dotnet</module>-->
   </modules>
 	<build>
 <!--
@@ -149,14 +149,14 @@ Contact: admin@smslib.org</description>
 					<targetJdk>1.5</targetJdk>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.9</version>
-				<configuration>
-					<additionalparam></additionalparam>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-javadoc-plugin</artifactId>-->
+<!--				<version>2.9</version>-->
+<!--				<configuration>-->
+<!--					<additionalparam></additionalparam>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>

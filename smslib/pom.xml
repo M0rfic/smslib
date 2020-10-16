@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>org.smslib</groupId>
 		<artifactId>smslib-parent</artifactId>
-		<version>dev-SNAPSHOT</version>
+		<version>4.0.0</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>smslib</artifactId>
@@ -88,23 +88,23 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.9</version>
-				<configuration>
-					<additionalparam></additionalparam>
-				</configuration>
-				<executions>
-					<execution>
-						<id>attach-javadocs</id>
-						<phase>package</phase>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-javadoc-plugin</artifactId>-->
+<!--				<version>2.9</version>-->
+<!--				<configuration>-->
+<!--					<additionalparam></additionalparam>-->
+<!--				</configuration>-->
+<!--				<executions>-->
+<!--					<execution>-->
+<!--						<id>attach-javadocs</id>-->
+<!--						<phase>package</phase>-->
+<!--						<goals>-->
+<!--							<goal>jar</goal>-->
+<!--						</goals>-->
+<!--					</execution>-->
+<!--				</executions>-->
+<!--			</plugin>-->
 			<plugin>
 				<artifactId>maven-antrun-plugin</artifactId>
 				<version>1.5</version>

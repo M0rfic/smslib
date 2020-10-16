@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>org.smslib</groupId>
 		<artifactId>smslib-parent</artifactId>
-		<version>dev-SNAPSHOT</version>
+		<version>4.0.0</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>smsserver</artifactId>
